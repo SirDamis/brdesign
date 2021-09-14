@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bera.ng - Buy used </title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+	 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+
+
+	<!-- Navabar -->
+	 <nav class="navbar navbar-expand-md ">
+	 	<div class="container">
+	 		<!-- Brand -->
+		  	<a class="navbar-brand" href="#">Bera.ng</a>
+
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Login</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Sign Up</a>
+			      </li>
+			    </ul>
+			    <div>
+			    	<li class="btn btn-light nav-item">
+			    		<a href="nav-link post-btn" href="#" style="color: black;">Post an Ad</a>
+			    	</li>
+			    	<!-- <li class="nav-item">
+			    		<a href="nav-link" href="#">Post an Ad</a>
+			    	</li> -->
+			    </div>
+	  		</div>
+	 	</div>
+	</nav> 
+	<!-- Navbar End -->
+
+
+	<div class="postad-card card col-md-9  m-3 mx-auto">
+		<div class="postad-header">
+				<h3 class="heading">Post an Ad</h3>
+			</div>
+	  	<div class="card-body mx-5 mt-5 mb-3 p-5">
+			<form class="form-register" action="#" method="post">
+				<div class="form-row mb-2">
+				    <div class="col">
+				      <input type="text" class="form-control" id="title" name="title" placeholder="Ad Title" required>
+				    </div>
+				    <div class="col">
+				      <input type="text" class="form-control" id="price" name="price" placeholder="Price (₦)" required>
+				    </div>
+				</div>
+				<div class="form-row mb-2">
+					<div class="col-md-12">
+                        <textarea name="description" class="form-control" rows="7" style="box-shadow: none; resize: none; outline: none; width: 100%"; required="" placeholder=" Ad Description"></textarea>
+					</div>
+				</div>
+				<div class="form-row mb-2">
+					 <div class="form-group col-md-6">
+					    <select id="inputState" class="form-control">
+					        <option  selected>Category</option>
+					        <option>...</option>
+					    </select>
+				    </div>
+					 <div class="form-group col-md-6">
+					    <select id="inputState" class="form-control">
+					        <option  selected>Subcategory</option>
+					        <option>...</option>
+					    </select>
+				    </div>
+				</div>
+				
+				<div class="form-row mb-2">
+				    <div class="form-group col-md-6">
+					    <select id="inputState" class="form-control">
+					        <option  selected>State</option>
+					        <option>...</option>
+					    </select>
+				    </div>
+				 	<div class="form-group col-md-6">
+				     	<input type="text" class="form-control" id="inputCity" placeholder="City">
+				    </div>
+				</div>
+
+				<div class="form-row mb-2">
+					<div id="radio" class="col">
+						<p>Product type: </p>
+						<input type="radio" name="new" value="male" checked class="radio-1"> Used
+						<input type="radio" name="used" value="female"> New
+					</div>
+				</div>
+				<div class="form-row mb-2">
+	                <div class="form-group col-md-6">
+                    	<label class="tg-fileuploadlabel" for="tg-photogallery">
+	                        <span>Picture must not exceed 5.</span>
+	                        <span class="btn">Select Files</span>
+	                        <input id="tg-photogallery" class="tg-fileinput" type="file" name="images[]" multiple="">
+	                    </label>
+                    </div>
+
+                    <div class="form-group col-md-6">
+	                    <div class="gallery">
+	                    	
+	                    </div>
+	                </div>
+				</div>
+			</form>
+	  	</div>
+	  	<div>
+	  		<button class="btn btn-submit float-right mb-2">
+	  			<a href="">Submit</a>
+	  		</button>
+	  	</div>
+	</div>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- Custom JS -->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+
